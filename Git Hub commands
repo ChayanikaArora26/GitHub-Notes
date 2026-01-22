@@ -1,0 +1,84 @@
+🙌🏻Configuration
+
+git config --global user.name "Your Name" → Sets the name that appears on all your commits.
+
+git config --global user.email "you@email.com" → Sets the email associated with your commits.
+
+
+👉🏻Repository Setup
+
+git init → Initializes a new Git repository in the current folder.
+
+
+🦾Checking Status & History
+
+git status → Shows the current state of files (modified, staged, untracked).
+
+git log → Displays the commit history of the repository.
+
+
+🗂️Adding Files
+
+git add filename → Adds a specific file to the staging area.
+
+git add . → Adds all changed files in the current directory to staging.
+
+git add -A → Adds all changes (new, modified, deleted files) to staging.
+
+
+💡Committing Changes
+
+git commit -m "message" → Saves staged changes as a permanent snapshot with a message.
+
+
+
+↩️Undo / Restore
+
+git restore filename → Discards changes in a file and restores it to the last commit.
+
+git restore . → Discards all unstaged changes in the current directory.
+
+git restore --staged filename → Removes a file from staging but keeps its changes.
+
+
+
+🪾Branching
+
+git branch → Lists all branches in the repository.
+
+git branch branch-name → Creates a new branch.
+
+git checkout branch-name → Switches to an existing branch.
+
+git checkout -b branch-name → Creates a new branch and switches to it.
+
+
+⛘Merging
+
+git merge branch-name → Combines another branch into the current branch.
+
+
+
+✦✦GitHub / Remote Commands
+
+git remote add origin URL → Connects your local repository to a GitHub repository.
+
+git push origin main → Uploads your local commits to GitHub.
+
+git pull origin main → Downloads and merges changes from GitHub into your local branch.
+
+git clone URL → Creates a local copy of a remote GitHub repository.
+
+git fetch → Downloads changes from GitHub without merging them.
+
+
+
+📊Daily Workflow
+
+git status → Check what has changed.
+
+git add . → Stage all changes.
+
+git commit -m "message" → Save changes locally.
+
+git push origin main → Upload changes to GitHub.
